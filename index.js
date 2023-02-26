@@ -67,6 +67,5 @@ preload = () => {
     warframes.forEach(frame => {
         var img = new Image();
         img.src = `./warframes/${frame}.png`
-        console.log(`./warframes/${frame}.png`)
     });
 }
