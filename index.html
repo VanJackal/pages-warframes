@@ -2,14 +2,18 @@
 
 <head>
     <title>Random Warframe</title>
+    <script type="text/javascript" src="index.js"></script>
 </head>
 
 <body>
     <div>
-        <input type="button" value="New Frame" />
+        <input onclick="randomFrame()" type="button" value="New Frame" />
     </div>
     <div>
         <img src="lotus.png" name="canvas" />
+    </div>
+    <div>
+        <p id="warframe"></p>
     </div>
 </body>
 
