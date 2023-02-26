@@ -62,3 +62,11 @@ randomFrame = () => {
 capitalize = (string) => {
     return string.charAt(0).toUpperCase() + string.slice(1);
 }
+
+preload = () => {
+    warframes.forEach(frame => {
+        var img = new Image();
+        img.src = `./warframes/${frame}.png`
+        console.log(`./warframes/${frame}.png`)
+    });
+}
