@@ -64,8 +64,8 @@ capitalize = (string) => {
 }
 
 preload = () => {
+    var img = new Image();
     warframes.forEach(frame => {
-        var img = new Image();
         img.src = `./warframes/${frame}.png`
     });
 }
